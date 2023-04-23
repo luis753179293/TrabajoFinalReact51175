@@ -1,0 +1,19 @@
+.quej{
+    padding-top: 50px;
+
+}
+
+.carta{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.contador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+
+}

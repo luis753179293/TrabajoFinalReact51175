@@ -1,0 +1,72 @@
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border: 3px solid #FFCB05;
+    background: linear-gradient(to bottom right, #f1f1f1, #c5c5c5);
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .titulo {
+      
+    font-size: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #b4b4b4;
+    background-color: #333333;
+    background-image: linear-gradient(45deg, #333333 25%, transparent 25%, transparent 50%, #333333 50%, #333333 75%, transparent 75%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: text; 
+    background-clip: text;
+  
+  /* font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px; */
+}
+
+.divBoton {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 8px 16px;
+  background-image: linear-gradient(to bottom, #ffffff, #F77F00); /* se ha añadido un degradado de colores */
+  color: #fff; /* se ha cambiado el color del texto a blanco */
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.divBoton a{
+  color: black;
+  text-decoration: none;
+}
+.divBoton:hover {
+  background-image: linear-gradient(to bottom, #F08686, #F77F00); /* se ha modificado el degradado para el estado hover */
+  border-color: #aaa;
+}
+  

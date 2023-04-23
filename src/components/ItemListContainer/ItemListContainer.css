@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(to bottom right, #EAE2B7, #ffffff);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #1c2a34; 
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+.pokedex{
+    text-align: center;
+    color: #EED977;
+    text-shadow: 3px 3px blue;
+    padding: 10px;
+    font-family: 'Bangers', cursive;
+
+  }
+
+  .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
